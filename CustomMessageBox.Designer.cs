@@ -63,7 +63,7 @@
             this.baseTheme1.Movable = true;
             this.baseTheme1.Name = "baseTheme1";
             this.baseTheme1.NoRounding = false;
-            this.baseTheme1.ShowIcon = true;
+            this.baseTheme1.ShowIcon = false;
             this.baseTheme1.ShowText = false;
             this.baseTheme1.Sizable = false;
             this.baseTheme1.Size = new System.Drawing.Size(569, 296);
