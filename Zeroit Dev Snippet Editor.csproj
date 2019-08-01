@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7A9937A9-E467-4597-B035-E24C2BB7549E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Zeroit.Framework.SnippetEditors</RootNamespace>
+    <AssemblyName>Zeroit.Framework.SnippetEditors</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>C:\Users\ZEROIT\Desktop\TEMP FILES\Published\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>snippet.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>A94FC0FFBF3255F7DD698FF9EE31AE21A9457A52</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Zeroit.Framework.SnippetEditors_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CustomMessageWarnAppend.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomMessageWarnAppend.Designer.cs">
+      <DependentUpon>CustomMessageWarnAppend.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomMessageBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomMessageBox.Designer.cs">
+      <DependentUpon>CustomMessageBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExtensibleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExtensiblePanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Helpers\Animation\Visual Effects Animation\AnimationExtensions.cs" />
+    <Compile Include="Helpers\Animation\Visual Effects Animation\AnimationStatus.cs" />
+    <Compile Include="Helpers\Animation\Visual Effects Animation\BottomAnchoredHeightEffect.cs" />
+    <Compile Include="Helpers\Animation\Visual Effects Animation\ColorChannelShiftEffect.cs" />
+    <Compile Include="Helpers\Animation\Visual Effects Animation\ColorShiftEffect.cs" />
+    <Compile Include="Helpers\Animation\Visual Effects Animation\ControlExtensions.cs" />
+    <Compile Include="Helpers\Animation\Visual Effects Animation\ControlFadeEffect.cs" />
+    <Compile Include="Helpers\Animation\Visual Effects Animation\EasingFunctions.cs" />
+    <Compile Include="Helpers\Animation\Visual Effects Animation\ExampleFoldAnimation.cs" />
+    <Compile Include="Helpers\Animation\Visual Effects Animation\Flags.cs" />
+    <Compile Include="Helpers\Animation\Visual Effects Animation\FoldAnimation .cs" />
+    <Compile Include="Helpers\Animation\Visual Effects Animation\FoldEffect.cs" />
+    <Compile Include="Helpers\Animation\Visual Effects Animation\FontSizeEffect.cs" />
+    <Compile Include="Helpers\Animation\Visual Effects Animation\FormFadeEffect.cs" />
+    <Compile Include="Helpers\Animation\Visual Effects Animation\HorizontalFoldEffect.cs" />
+    <Compile Include="Helpers\Animation\Visual Effects Animation\IEffect.cs" />
+    <Compile Include="Helpers\Animation\Visual Effects Animation\ImageExtensions.cs" />
+    <Compile Include="Helpers\Animation\Visual Effects Animation\LeftAnchoredWidthEffect.cs" />
+    <Compile Include="Helpers\Animation\Visual Effects Animation\RightAnchoredWidthEffect.cs" />
+    <Compile Include="Helpers\Animation\Visual Effects Animation\TopAnchoredHeightEffect.cs" />
+    <Compile Include="Helpers\Animation\Visual Effects Animation\VerticalFoldEffect.cs" />
+    <Compile Include="Helpers\Animation\Visual Effects Animation\XLocationEffect.cs" />
+    <Compile Include="Helpers\Animation\Visual Effects Animation\YLocationEffect.cs" />
+    <Compile Include="Helpers\Animation\Visual Effects Animation\ZeroitAnimate_VisualEffectsAnimator.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Helpers\Animation\ZeroitAnimate_Animator\Animation.cs" />
+    <Compile Include="Helpers\Animation\ZeroitAnimate_Animator\Animator.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Helpers\Animation\ZeroitAnimate_Animator\Controller.cs" />
+    <Compile Include="Helpers\Animation\ZeroitAnimate_Animator\DecorationControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Helpers\Animation\ZeroitAnimate_Animator\DoubleBitmapControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Helpers\Animation\ZeroitAnimate_Animator\DoubleBitmapControl.Designer.cs">
+      <DependentUpon>DoubleBitmapControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Helpers\Animation\ZeroitAnimate_Animator\DoubleBitmapForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Helpers\Animation\ZeroitAnimate_Animator\DoubleBitmapFormDesigner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Helpers\Animation\ZeroitAnimate_Animator\Flags.cs" />
+    <Compile Include="Helpers\Animation\ZeroitAnimate_Animator\PointFConverter.cs" />
+    <Compile Include="Helpers\Animation\ZeroitAnimate_Animator\TransfromHelper.cs" />
+    <Compile Include="Helpers\Button\DrawHelper.cs" />
+    <Compile Include="Helpers\Button\FontManager.cs" />
+    <Compile Include="Helpers\Button\IMaterialControl.cs" />
+    <Compile Include="Helpers\HashCode.cs" />
+    <Compile Include="Helpers\KnobControl\LBKnob.cs" />
+    <Compile Include="Helpers\SplashScreen\FlatProgressBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Helpers\SplashScreen\FormHandle.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Helpers\SplashScreen\ObjectEllipse.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Helpers\SplashScreen\SplashScreen.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Helpers\Tab\HorizontalTab.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Helpers\TextBox\UltraTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Helpers\ThemeManager\Spicylips Theme.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Helpers\ThemeManager\Themes.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Helpers\Button\ZeroitLolliClickButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Helpers\Labels\UltraLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Helpers\Labels\UltraSmartTag.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Helpers\TransparentText.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SplashScreenForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SplashScreenForm.Designer.cs">
+      <DependentUpon>SplashScreenForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VisualStudioEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VisualStudioEditor.Designer.cs">
+      <DependentUpon>VisualStudioEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SnippetEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SnippetEditor.Designer.cs">
+      <DependentUpon>SnippetEditor.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="CustomMessageWarnAppend.resx">
+      <DependentUpon>CustomMessageWarnAppend.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomMessageBox.resx">
+      <DependentUpon>CustomMessageBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExtensibleForm.resx">
+      <DependentUpon>ExtensibleForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SplashScreenForm.resx">
+      <DependentUpon>SplashScreenForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VisualStudioEditor.resx">
+      <DependentUpon>VisualStudioEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SnippetEditor.resx">
+      <DependentUpon>SnippetEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Resources\Roboto-Medium.ttf" />
+    <None Include="Resources\Roboto-Regular.ttf" />
+    <None Include="Zeroit.Framework.SnippetEditors_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\openFile_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Success.wav" />
+    <None Include="Resources\no_sound_24px.png" />
+    <None Include="Resources\sound_24px.png" />
+    <None Include="Resources\reset_20px.png" />
+    <None Include="Resources\mainIcon.png" />
+    <Content Include="snippet.ico" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
