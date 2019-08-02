@@ -7,7 +7,7 @@
     <ProjectGuid>{7A9937A9-E467-4597-B035-E24C2BB7549E}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>Zeroit.Framework.SnippetEditors</RootNamespace>
-    <AssemblyName>Zeroit.Framework.SnippetEditors</AssemblyName>
+    <AssemblyName>Zeroit Dev Snippet Editor</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
