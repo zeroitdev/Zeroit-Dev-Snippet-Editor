@@ -566,7 +566,7 @@ namespace Zeroit.Framework.SnippetEditors
 
 
             }
-            catch (Exception)
+            catch (Exception ex)
             {
 
                 WarningMessage("Please Select A File To Append Text", Color.DarkOrange, "Select A File");

@@ -2,7 +2,7 @@
 
 
 
-## **ZEROIT DEV LINE SEPARATORS**
+## **ZEROIT DEV SNIPPET EDITOR**
 
 This is a software for creating snippets in Visual Studio, Visual Studio Code, Atom and Subime. I started this project as a way of practicing the C# language. After completing this project and reading through numerous source codes from developers on [codeproject](https://www.codeproject.com/) and [github](https://github.com/), I saw it very useful to help others who intend to learn the language through publishing this project and others.
 
@@ -12,7 +12,7 @@ However, it should be noted that this project is not without any flaws and as su
 
 ## WHERE TO FIND
 
-This library is available as a NuGet package at [nuget.org](https://www.nuget.org/packages/Zeroit.Framework.LineSeparators/).
+This library is available as an executable file at  [github](https://github.com/zeroitdev/ZeroitSnippetEditor/blob/master/Installer/Snippet Editor.exe).
 
 
 

@@ -177,7 +177,7 @@ namespace Zeroit.Framework.SnippetEditors
             secondEmptyList.Add("<CodeSnippets xmlns=\"http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet\" >");
             secondEmptyList.Add("\t" + "<CodeSnippet Format=\"1.0.0\">");
             secondEmptyList.Add("\t " + "<Header>");
-            secondEmptyList.Add("\t  " + "<Title>" + snippetTitle.Text +"</Title>");
+            secondEmptyList.Add("\t  " + "<Title>" + "\"" + snippetTitle.Text + "\"" + "</Title>");
             secondEmptyList.Add("\t  " + "<Author>" + snippetAuthor.Text + "</Author>");
             secondEmptyList.Add("\t  " + "<Description>" + snippetDescription.Text + "</Description>");
             secondEmptyList.Add("\t  " + "<Shortcut>" + snippetShortcut.Text + "</Shortcut>");

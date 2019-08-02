@@ -1134,7 +1134,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "VisualStudioEditor";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
-            this.Text = "SnippetEditor";
+            this.Text = "                                                               ";
             this.TransparencyKey = System.Drawing.Color.Fuchsia;
             this.Load += new System.EventHandler(this.VisualStudioEditor_Load);
             this.theme.ResumeLayout(false);

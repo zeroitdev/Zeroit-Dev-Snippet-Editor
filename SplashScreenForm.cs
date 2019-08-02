@@ -116,5 +116,7 @@ namespace Zeroit.Framework.SnippetEditors
             timer.Enabled = false;
             timer.Dispose();
         }
+        
+
     }
 }
