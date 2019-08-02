@@ -1,14 +1,22 @@
-﻿using System;
-using System.Collections;
+﻿// ***********************************************************************
+// Assembly         : Zeroit Dev Snippet Editor
+// Author           : ZEROIT
+// Created          : 06-29-2019
+//
+// Last Modified By : ZEROIT
+// Last Modified On : 08-02-2019
+// ***********************************************************************
+// <copyright file="SnippetEditor.cs" company="Zeroit Dev Technologies">
+//     Copyright © 2019 Zeroit Dev Technologies. All Rights Reserved.
+// </copyright>
+// <summary></summary>
+// ***********************************************************************
+using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
 using System.IO;
 using System.Linq;
 using System.Media;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Zeroit.Framework.SnippetEditors

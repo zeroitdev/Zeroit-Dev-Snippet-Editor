@@ -1,4 +1,19 @@
-﻿namespace Zeroit.Framework.SnippetEditors
+﻿// ***********************************************************************
+// Assembly         : Zeroit Dev Snippet Editor
+// Author           : ZEROIT
+// Created          : 06-22-2019
+//
+// Last Modified By : ZEROIT
+// Last Modified On : 08-02-2019
+// ***********************************************************************
+// <copyright file="VisualStudioEditor.Designer.cs" company="Zeroit Dev Technologies">
+//     Copyright © 2019 Zeroit Dev Technologies. All Rights Reserved.
+// </copyright>
+// <summary></summary>
+// ***********************************************************************
+
+
+namespace Zeroit.Framework.SnippetEditors
 {
     partial class VisualStudioEditor
     {

@@ -1,4 +1,19 @@
-﻿namespace Zeroit.Framework.SnippetEditors
+﻿// ***********************************************************************
+// Assembly         : Zeroit Dev Snippet Editor
+// Author           : ZEROIT
+// Created          : 06-23-2019
+//
+// Last Modified By : ZEROIT
+// Last Modified On : 08-01-2019
+// ***********************************************************************
+// <copyright file="CustomMessageBox.Designer.cs" company="Zeroit Dev Technologies">
+//     Copyright © 2019 Zeroit Dev Technologies. All Rights Reserved.
+// </copyright>
+// <summary></summary>
+// ***********************************************************************
+
+
+namespace Zeroit.Framework.SnippetEditors
 {
     partial class CustomMessageBox
     {

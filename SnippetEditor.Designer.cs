@@ -1,4 +1,19 @@
-﻿namespace Zeroit.Framework.SnippetEditors
+﻿// ***********************************************************************
+// Assembly         : Zeroit Dev Snippet Editor
+// Author           : ZEROIT
+// Created          : 06-21-2019
+//
+// Last Modified By : ZEROIT
+// Last Modified On : 06-27-2019
+// ***********************************************************************
+// <copyright file="SnippetEditor.Designer.cs" company="Zeroit Dev Technologies">
+//     Copyright © 2019 Zeroit Dev Technologies. All Rights Reserved.
+// </copyright>
+// <summary></summary>
+// ***********************************************************************
+
+
+namespace Zeroit.Framework.SnippetEditors
 {
     partial class SnippetEditor
     {
