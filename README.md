@@ -1,4 +1,4 @@
-![](<https://github.com/zeroitdev/Zeroit.Framework.LineSeparators/blob/master/Preview/Preview_1.png>)
+![](<https://github.com/zeroitdev/Zeroit-Dev-Snippet-Editor/blob/master/Preview/Preview.png>)
 
 
 
